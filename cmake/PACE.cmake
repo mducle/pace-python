@@ -26,7 +26,6 @@ if(WITH_SPINW)
     endif()
 endif()
 
-#TODO: Update this so that its inline with spinw above once it is working
 if(WITH_HORACE)
     if(HORACE_PATH)
         ExternalProject_Add(HORACE 
