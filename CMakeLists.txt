@@ -15,7 +15,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(MINIMUM_PYBIND11_VERSION 2.10.1)
 set(FETCH_PYBIND11_REPO https://github.com/pybind/pybind11)
 
-option(WITH_HORACE "Include Horus" ON)
+option(WITH_HORACE "Include Horace" ON)
 option(WITH_SPINW "Include SpinW" ON)
 
 set(HORACE_VERSION 3.6.3 CACHE STRING "Sets the Horace release version number to download")
